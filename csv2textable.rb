@@ -29,7 +29,7 @@ File.open(ARGV[0]) do |csvf|
     elsif line == "\\hline" then
       table_body.push(space + line)
     else
-      converted_line = space + line.gsub(",", " & ")  # "foo,bar" => "  foo && bar"
+      converted_line = space + line.gsub(",", " & ")  # "foo,bar" => "    foo && bar"
       if converted_line.index("\\hline") == nil then
         converted_line << " \\\\"
       else
