@@ -49,15 +49,15 @@ if pdf then
   puts file_header
   puts
 end
-  puts table_header1
-  if caption != "" then
-    puts "  \\caption{#{caption}}"
-  end
-  puts table_header2
-  table_body.each do |line|
-    puts line
-  end
-  puts table_footer
+puts table_header1
+if caption != "" then
+  puts "  \\caption{#{caption}}"
+end
+puts table_header2
+table_body.each do |line|
+  puts line
+end
+puts table_footer
 if pdf then
   puts
   puts file_footer
