@@ -8,5 +8,5 @@ or
 
 ruby csv2textable.rb "textfile"   # outputs tex table source file to console
 
-# how to edit csv file for this script
+# how to edit csv-like-text file for this script
 see example.txt
