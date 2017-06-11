@@ -1,0 +1,7 @@
+option |c|c|    # option for vertical line and value centering/right/left
+caption example_caption   # caption
+\hline                    # top hline
+,policy \hline      # other position hline
+manual,highcost
+automated,lowcost 
+hoge,foobar \hline
